@@ -6,7 +6,16 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    if (x and y)>0:
+     quadrant = 1
+    if (x and y)<0:
+        quadrant= 3
+    if (x<0) and (y>0):
+        quadrant=2 
+    if (x>0) and (y<0):
+        quadrant=4
+    
+    
     print(f'Quadrant: {quadrant}')
     ########################################
     # Do not delete the return statement
